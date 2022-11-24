@@ -100,6 +100,8 @@ body {
           box-shadow: 0px 10px 50px 0px #0000004D;
   border-radius: 50px;
   cursor: pointer;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .header .button_header .privat_img {
@@ -154,6 +156,8 @@ body {
   border-radius: 50px;
   font-weight: 400;
   line-height: 30px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .main .white {
@@ -171,8 +175,8 @@ body {
       align-self: flex-end;
   -ms-grid-column-align: center;
       justify-self: center;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .main .blue {
@@ -189,6 +193,8 @@ body {
   max-width: 283px;
   -ms-flex-item-align: end;
       align-self: flex-end;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 @media (max-width: 1384px) {
@@ -330,6 +336,8 @@ body {
 .blue:active {
   -webkit-box-shadow: 0px 10px 50px 0px #262626 inset;
           box-shadow: 0px 10px 50px 0px #262626 inset;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .white span {
@@ -347,6 +355,8 @@ body {
 .white:active {
   -webkit-box-shadow: 0px 10px 50px 0px #262626 inset;
           box-shadow: 0px 10px 50px 0px #262626 inset;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 /*-------MAIN-------*/
@@ -484,6 +494,15 @@ body {
 .item_header {
   margin-top: 55px;
   margin-bottom: 48px;
+  font-size: 24px;
+  color: #262626;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.item_header span {
+  color: #005676;
+  font-weight: 900;
 }
 
 .item_price {
@@ -492,6 +511,9 @@ body {
 
 .item_list {
   margin-bottom: 24px;
+  background-image: linear-gradient(43deg, #005676 0%, #273081 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .link {

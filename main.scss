@@ -86,6 +86,7 @@ $width-conteiner: 1600px;
         box-shadow: 0px 10px 50px 0px #0000004D;
         border-radius: 50px;
         cursor: pointer;
+        transition: all 1s ease;
 
 
         .privat_img {
@@ -106,6 +107,7 @@ $width-conteiner: 1600px;
 
     .button_header:active {
         box-shadow: 0px 10px 50px 0px #262626 inset;
+        // transition: all 1s ease;
     }
 
 }
@@ -135,6 +137,7 @@ $width-conteiner: 1600px;
         border-radius: 50px;
         font-weight: 400;
         line-height: 30px;
+        transition: all 1s ease;
     }
 
     .white {
@@ -145,7 +148,7 @@ $width-conteiner: 1600px;
         width: 316px;
         align-self: flex-end;
         justify-self: center;
-        transition: all 0.5s ease;
+        transition: all 1s ease;
     }
 
     .blue {
@@ -156,6 +159,7 @@ $width-conteiner: 1600px;
         color: #FFFFFFE5;
         max-width: 283px;
         align-self: flex-end;
+        transition: all 1s ease;
     }
 
     @media (max-width:1384px) {
@@ -164,8 +168,6 @@ $width-conteiner: 1600px;
             font-size: 48px;
         }
     }
-
-
 
     .main_text {
         grid-area: 4/2/4/4;
@@ -183,8 +185,6 @@ $width-conteiner: 1600px;
         -webkit-text-fill-color: transparent;
         transition: all .2s;
     }
-
-
 
     .main_promo {
         grid-area: 1/4/8/7;
@@ -263,10 +263,6 @@ $width-conteiner: 1600px;
     }
 }
 
-
-
-
-
 .blue:hover {
     box-shadow: 0px 10px 70px 0px #273081;
     transition: all 0.5s ease;
@@ -274,6 +270,7 @@ $width-conteiner: 1600px;
 
 .blue:active {
     box-shadow: 0px 10px 50px 0px #262626 inset;
+    transition: all 1s ease;
 }
 
 .white span {
@@ -288,6 +285,7 @@ $width-conteiner: 1600px;
 
 .white:active {
     box-shadow: 0px 10px 50px 0px #262626 inset;
+    transition: all 1s ease;
 }
 
 /*-------MAIN-------*/
@@ -296,7 +294,6 @@ $width-conteiner: 1600px;
 
 .help_for_bissnes {
     background-color: $bgr-grey ;
-
 }
 
 .acquiring {
@@ -304,7 +301,6 @@ $width-conteiner: 1600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .help {
@@ -370,8 +366,6 @@ $width-conteiner: 1600px;
     font-size: 3rem;
     font-weight: 600;
     line-height: 58px;
-
-
 }
 
 .tariff_text {
@@ -381,8 +375,6 @@ $width-conteiner: 1600px;
     font-weight: 400;
     line-height: 44px;
     letter-spacing: 3px;
-
-
 }
 
 .tariff_items {
@@ -413,12 +405,18 @@ $width-conteiner: 1600px;
     margin-right: 50px;
 }
 
-
-
-
 .item_header {
     margin-top: 55px;
     margin-bottom: 48px;
+    font-size: 24px;
+    color: #262626;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.item_header span {
+    color: #005676;
+    font-weight: 900;
 }
 
 .item_price {
@@ -427,6 +425,9 @@ $width-conteiner: 1600px;
 
 .item_list {
     margin-bottom: 24px;
+    background-image: linear-gradient(43deg, #005676 0%, #273081 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .link {
