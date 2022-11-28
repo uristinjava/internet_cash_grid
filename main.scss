@@ -43,7 +43,7 @@ body {
 /*----------обнуление стилей-------------------*/
 $bgr-grey: #F5F5F5;
 $width-conteiner: 1600px;
-
+$color_text: #262626;
 /*<-------HEADER------->*/
 
 .header {
@@ -571,7 +571,7 @@ $width-conteiner: 1600px;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 50px;
-    min-height: 90vh;
+    min-height: 800px;
 
     .item_excellence {
         background: linear-gradient(89.96deg, #F6F6F6 0.04%, #F5F5F5 99.96%);
@@ -679,9 +679,135 @@ $width-conteiner: 1600px;
     }
 }
 
-
-
 /*------EXILLENCE------*/
+
+/*<------WHAT YOUR BISNESS------>*/
+
+// .what_your_bisness {
+//     max-width: 450px;
+// }
+
+.what_your_bisness_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .bissness_header {
+        max-width: 437px;
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 58px;
+        text-align: center;
+        color: $color_text;
+        margin-bottom: 48px;
+    }
+
+    .bisness_text {
+        display: block;
+        font-weight: 400;
+        font-size: 2.25rem;
+        line-height: 44px;
+        color: #26262666;
+        margin-bottom: 85px;
+    }
+}
+
+/*------WHAT YOUR BISNESS------*/
+
+/*<------CLIENTES------>*/
+
+.first_clientes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2, 1fr;
+
+
+}
+
+.clients_text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.site {
+    grid-area: 1/1/1/5;
+    align-self: center;
+    justify-self: center;
+}
+
+.i_shop {
+    grid-area: 1/9/1/12;
+    align-self: center;
+    justify-self: center;
+
+
+}
+
+.arrow_client_first {
+    grid-area: 2/5;
+}
+
+.arrow_client_second {
+    rotate: 360deg;
+    grid-area: 2/8;
+    justify-self: flex-end;
+}
+
+.monitor_clients_grid {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(11, 1fr);
+}
+
+.monitor_clients {
+    max-width: 640px;
+    grid-area: 3/6/6/6;
+
+}
+
+.social_net {
+    grid-area: 4/1/4/4;
+}
+
+.market_place {
+    grid-area: 4/9/4/12;
+    justify-self: flex-end;
+}
+
+.pt_order {
+    grid-area: 5/3/6/5;
+    align-self: flex-end;
+}
+
+.on-line_school {
+    grid-area: 6/8/6/10;
+}
+
+.arrow_shop_net_social {
+    margin-top: 10px;
+    grid-area: 4/4/4/6;
+}
+
+.arrow_market_place {
+    grid-area: 4/8/4/10;
+    margin-top: 10px;
+    justify-items: flex-end;
+}
+
+.arrow_on-line_school {
+    grid-area: 5/7;
+    justify-self: flex-end;
+    align-self: center;
+}
+
+.arrow_pt_order {
+    grid-area: 5/5;
+    align-self: center;
+}
+
+/*------CLIENTES------*/
 
 @media (max-width:1384px) {
 
