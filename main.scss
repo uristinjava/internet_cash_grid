@@ -1006,10 +1006,80 @@ textarea {
     }
 }
 
-
-
-
 /*------FORMA------*/
+
+/*<------FOOTER----->*/
+
+.foooter {
+    background: linear-gradient(97.14deg, #005676 0%, #273081 100%);
+    min-height: 500px;
+
+
+    .footer_box {
+
+        padding-top: 142px;
+    }
+
+    .logo_content {
+        background-color: #FFFFFF;
+        max-width: 326px;
+        border-radius: 100px;
+
+        .logo_img {
+            padding: 23px 44px;
+        }
+    }
+
+    .contact_item_box {
+        display: flex;
+        justify-content: space-between;
+
+        .contact_item {
+            margin-top: 136px;
+            display: flex;
+            flex-direction: column;
+            max-width: 375px;
+
+            .fotter_item_header {
+                font-weight: 500;
+                font-size: 2.25rem;
+                line-height: 61px;
+                color: #FFFFFF;
+                margin-bottom: 80px;
+            }
+
+            .footer_link {
+                font-weight: 400;
+                font-size: 1.5rem;
+                line-height: 40px;
+                color: #FFFFFF;
+                margin-bottom: 64px;
+            }
+        }
+    }
+
+    .line {
+        border-bottom: 5px solid white;
+
+        margin-bottom: 60px;
+    }
+
+    .copy {
+        font-weight: 400;
+        font-size: 2.25rem;
+        line-height: 61px;
+        color: #FFFFFF;
+        padding-bottom: 80px;
+    }
+
+
+}
+
+/*------FOOTER-----*/
+
+
+
+
 
 .empty_block {
     min-height: 200px;
