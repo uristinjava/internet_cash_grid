@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Интернет Касса</title>
+
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +16,8 @@
     <!-- для подключения слайдера -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script> -->
+
+    <script src="index.js" defer></script>
 
 </head>
 
@@ -302,7 +305,7 @@
             <div class="connection_way ">
                 <div class="number_step even">4</div>
                 <div class="step_item">
-                    <h2 class="step_header">ОПЛАТА СЧЁТА</h2>
+                    <h2 class="step_header">РЕГИСТРАЦИЯ КАССЫ В ФНС</h2>
                     <p class="step_text">Оставьте заявку или позвоните на номер
                         <span><a class="step_text_phone" href="tel:+78003332278">
                                 8 (800) 333 22 78
@@ -334,6 +337,46 @@
         </div>
     </div>
 
+    <div class="forma conteiner">
+        <div class="circle form_item"></div>
+        <h2 class="text_circle form_item">Оставить заявку</h2>
+
+        <form class="snd_msg" action="#">
+            <div class="input_form">
+                <input type="text" placeholder="Как к вам обращаться:">
+            </div>
+            <div class="input_form">
+                <input type="tel" placeholder="Телефон для связи:">
+            </div>
+            <div class="input_form">
+                <input type="text" placeholder="Электронная почта (необязательное поле):">
+            </div>
+
+
+            <textarea name="" id="" placeholder="Дополнительный комментарий (необязательное поле):"></textarea>
+
+
+            <div class="press_snd">
+                <a href="#" class="button blue form_button">
+                    Оставить заявку
+                </a>
+
+                <div class="check_place">
+                    <div class="press_snd_text_yes">
+                        <img class="check" src="img/yes.svg" alt="check">
+                    </div>
+                </div>
+                <div class="press_snd_text">
+                    Нажимая «Отправить», вы предоставляете Согласие на обработку персональных данных.
+                </div>
+
+            </div>
+
+        </form>
+
+
+    </div>
+    <div class="empty_block"></div>
 
 
 
