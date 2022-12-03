@@ -1,0 +1,93 @@
+$bgr-grey: #F5F5F5;
+
+.who_work {
+    display: flex;
+    justify-content: center;
+}
+
+.who_work_header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    width: 267px;
+    margin-bottom: 154px;
+}
+
+.item_acquiring {
+    background-color: $bgr-grey;
+    height: max-content;
+
+    .who_item {
+        background-color: white;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+
+        .who_item_acquiring {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: $bgr-grey;
+            height: 747px;
+            width: 48%;
+
+            .item_acquiring_header {
+                margin-top: 86px;
+                margin-bottom: 64px;
+                text-align: center;
+                max-width: 496px;
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 45px;
+            }
+
+            .item_acquiring_text {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                max-width: 540px;
+                text-align: center;
+                margin-bottom: 64px;
+            }
+
+            .item_acquiring_link {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                background-image: linear-gradient(43deg, #005676 0%, #273081 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .item_acquiring_link:hover {
+                text-shadow: #273081B2 0px 0px 10px;
+                transition: all 0.5s ease;
+            }
+
+
+        }
+
+        .who_item_acquiring:nth-child(1) {
+            margin-bottom: 58px;
+        }
+
+        .who_item_acquiring:nth-child(2) {
+            margin-bottom: 58px;
+        }
+
+        .left_item {
+            border-radius: 0px 50px 50px 0px;
+        }
+
+        .right_item {
+            border-radius: 50px 0px 0px 50px;
+        }
+
+    }
+
+
+}
